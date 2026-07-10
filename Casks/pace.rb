@@ -1,6 +1,6 @@
 cask "pace" do
-  version "1.0.0"
-  sha256 "ed71bc78c53573442091bd93638d6c10f9aaa64814d0df2f807c5cd16eea7cce"
+  version "1.0.1"
+  sha256 "e760874195bc709f962aa682e59add98644ca5ee7cbfab00c164bde46899d5e7"
 
   url "https://github.com/iamitp/pace/releases/download/v#{version}/Pace-v#{version}.zip"
   name "Pace"
