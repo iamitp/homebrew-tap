@@ -4,14 +4,12 @@ cask "pace" do
 
   url "https://github.com/iamitp/pace/releases/download/v#{version}/Pace-v#{version}.zip"
   name "Pace"
-  desc "Menu bar meter for OpenAI Codex/ChatGPT quota with live thrust and reset-credit ledger"
+  desc "Menu bar meter for Codex/ChatGPT quota: live thrust and reset-credit ledger"
   homepage "https://github.com/iamitp/pace"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Pace.app"
 
-  zap trash: [
-    "~/Library/Application Support/Pace",
-  ]
+  zap trash: "~/Library/Application Support/Pace"
 end
